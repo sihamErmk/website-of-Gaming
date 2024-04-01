@@ -101,24 +101,3 @@ $(document).ready(function(){
         }
     });
 });
-
-
-document.addEventListener("DOMContentLoaded", function() {
-    // Get the "Learn more" button
-    var learnMoreButton = document.querySelector(".card1 .button");
-
-    // Get the event details section
-    var eventDetails = document.getElementById("event-details");
-
-    // Add click event listener to the "Learn more" button
-    learnMoreButton.addEventListener("click", function(event) {
-        event.preventDefault(); // Prevent default link behavior
-        eventDetails.style.display = eventDetails.style.display === "none" ? "block" : "none";
-    });
-});
-
-
-
-
-  
- 
